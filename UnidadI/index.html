@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>TP Optativo - Módulo I - Unidad I - Nevot, Alan</title>
+	<link rel="stylesheet" href="./vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<script src="./scripts/jquery-3.4.1.min.js"></script>
+	<script src="./scripts/popper.min.js"></script>
+	<script src="./vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="./resources/logo.png" width="100" height="60" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Nosotros</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Nuestros Productos
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Automóvil</a>
+						<a class="dropdown-item" href="#">Empleo</a>
+						<a class="dropdown-item" href="#">Hogar</a>
+						<a class="dropdown-item" href="#">Vida</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">¿Por qué elegirnos?</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contacto</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div id="form-container" class="row">
+			<div id="shadow" class="col-md-6 offset-md-3">
+				<h6 id="info" class="text-center">Por favor, complete el siguiente formulario para que nuestros asesores lo contacten</h6>
+				<form>
+					<div class="form-group row">
+						<label for="name" class="col-md-2 col-form-label">Nombre</label>
+						<div class="col-md-10">
+							<input type="text" class="form-control" id="name" placeholder="Nombre" required="required">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="last-name" class="col-md-2 col-form-label">Apellido</label>
+						<div class="col-md-10">
+							<input type="text" class="form-control" id="last-name" placeholder="Apellido" required="required">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="id-number" class="col-md-2 col-form-label">DNI</label>
+						<div class="col-md-10">
+							<input type="text" class="form-control" id="id-number" placeholder="DNI" required="required">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="e-mail" class="col-md-2 col-form-label">E-Mail</label>
+						<div class="col-md-10">
+							<input type="email" class="form-control" id="e-mail" placeholder="micorreo@ejemplo.com" required="required">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="phone" class="col-md-2 col-form-label">Teléfono</label>
+						<div class="col-md-10">
+							<input type="text" class="form-control" id="phone" placeholder="011 4123 5678" required="required">
+						</div>
+					</div>
+					<fieldset class="form-group">
+						<div class="row">
+							<legend class="col-form-label col-md-2 pt-0">Tipo de Seguro</legend>
+							<div class="col-md-10">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="insurance-type" id="basic" value="basico" checked>
+									<label class="form-check-label" for="basic">
+										Básico
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="insurance-type" id="intermediate" value="intermedio">
+									<label class="form-check-label" for="intermediate">
+										Intermedio
+									</label>
+								</div>
+								<div class="form-check disabled">
+									<input class="form-check-input" type="radio" name="insurance-type" id="premium" value="premium">
+									<label class="form-check-label" for="premium">
+										Premium
+									</label>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<div class="form-group row">
+						<div class="col-md-4 offset-md-4">
+							<button type="submit" class="btn btn-block btn-success">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

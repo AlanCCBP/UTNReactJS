@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>TP Optativo - Módulo I - Unidad II - Nevot, Alan</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/styles.css">
+	<script type="text/javascript" src="./scripts/calculator.js"></script>
+</head>
+<body>
+	<div id="calc-container">
+		<img id="logo" width="100" src="./resources/images/casio-vector-logo.png">
+		<div id="total">
+			<label id="operation-result">0.</label>
+		</div>
+		<div id="interface">
+			<div id="numbers">
+				<div class="inputs-container">
+					<label for="first-number">Primer Número</label>
+					<input type="number" id="first-number" class="number-input" onfocus="clearNumberInputField(this)">
+				</div>
+				<div class="inputs-container">
+					<label for="second-number">Segundo Número</label>
+					<input type="number" id="second-number" class="number-input" onfocus="clearNumberInputField(this)">
+				</div>
+			</div>
+			<div id="functions-container">
+				<div id="divide" class="function">÷</div>
+				<div id="multiply" class="function">x</div>
+				<div id="sum" class="function">+</div>
+				<div id="substract" class="function">-</div>
+				<div id="close" class="function">C</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
