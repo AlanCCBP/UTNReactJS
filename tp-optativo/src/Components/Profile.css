@@ -1,0 +1,16 @@
+.Profile-Pic{
+    width: 200px;
+    height: 200px;
+    margin-left: 32%;
+    border-radius: 50%;
+    background-image: url('../profile.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+li{
+    list-style: none;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}

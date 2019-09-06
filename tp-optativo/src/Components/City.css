@@ -1,0 +1,25 @@
+.location-icon {
+    animation: location-icon-spin infinite 2s linear;
+    height: 5vmin;
+    pointer-events: none;
+  }
+
+@keyframes location-icon-spin {
+    from {
+        transform: rotateY(-45deg);
+    }
+    to {
+        transform: rotateY(45deg);
+    }
+}
+
+.location-container{
+    display: inline-table;
+}
+
+.city {
+    vertical-align: text-top;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
